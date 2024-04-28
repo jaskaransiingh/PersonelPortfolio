@@ -94,7 +94,7 @@ const UserCard = ({
       >
         <CardContent className={classes.card}>
           {!noAvatar && (
-            <Avatar className={classes.iconLarge} src={`/assets/avatars/${nickname}.jpg`} />
+            <Avatar className={classes.iconLarge} src={`./assets/avatars/${nickname}.jpg`} />
           )}
           {name && (
             <Typography variant="h5" paragraph={!nickname}>

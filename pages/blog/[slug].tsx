@@ -99,7 +99,7 @@ const Post = ({ post /*, morePosts, preview*/ }: Props) => {
                 </Typography>
               )}
               <Box display="flex" marginTop={3} alignItems="center" style={{ gap: 8 }}>
-                <Avatar src={`/assets/avatars/${post.author}.jpg`} />
+                <Avatar src={`./assets/avatars/${post.author}.jpg`} />
                 <Typography variant="body1" color="primary" style={{ opacity: 1 }}>
                   {post.author}
                 </Typography>

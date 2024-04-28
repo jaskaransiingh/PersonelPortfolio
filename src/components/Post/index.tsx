@@ -57,7 +57,7 @@ const Post = ({ title, description, date, image, slug, author, ...rest }: PostPr
             )}
             <Box display="flex" alignItems="center" justifyContent="space-between" marginTop="auto">
               <Box display="flex" alignItems="center" style={{ gap: 8 }}>
-                <Avatar src={`/assets/avatars/${author}.jpg`} />
+                <Avatar src={`./assets/avatars/${author}.jpg`} />
                 <Typography variant="body1" color="primary" style={{ opacity: 1 }}>
                   {author}
                 </Typography>
